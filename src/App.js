@@ -1,23 +1,28 @@
-import React, { Component } from "react";
-import Terminal from "./components/Terminal";
-import "./App.css";
-// import "antd/dist/antd.css";
-
-class App extends Component {
-  render() {
-    return (
-      <Terminal />
-      // <div className="App">
-      //   <div className="MainDiv">
-      //     <div style={{ margin: "100px 20px 20px 20px" }}>
-      //       <div className="container">
-      //         <Xterm />
-      //       </div>
-      //     </div>
-      //   </div>
-      // </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <script
+        type="text/javascript"
+        src="//cdn.datacamp.com/dcl/lastest/dcl-react.js.gz"
+      ></script>
+      <div data-datacamp-exercise data-lang="python">
+        <code data-type="pre-exercise-code"># no pec</code>
+        <code data-type="sample-code">
+          # Create a variable a, equal to 5 # Print out a
+        </code>
+        <code data-type="solution">
+          # Create a variable a, equal to 5 a = 5 # Print out a print(a)
+        </code>
+        <code data-type="sct">
+          test_object("a") test_function("print") success_msg("Great job!")
+        </code>
+        <div data-type="hint">
+          Use the assignment operator (<code>=</code>) to create the variable{" "}
+          <code>a</code>.
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
